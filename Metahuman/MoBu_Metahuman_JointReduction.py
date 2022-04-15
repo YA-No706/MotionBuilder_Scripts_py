@@ -22,7 +22,8 @@ def __GetSkeletonDefinitionList(templateXmlFileName) :
 
 def __Delete(jointName):
     jointObj = FBFindModelByLabelName(jointName)
-    jointObj.FBDelete()
+    if jointObj:
+        jointObj.FBDelete()
 
 def JointReduction(namespace):
     """
@@ -34,13 +35,13 @@ def JointReduction(namespace):
     selectJoints = [select.Name.replace(namespace,'') for select in selects]
     jointReductionList = list(set(selectJoints) - set(skeletonDefinitionList))
     pprint(jointReductionList)
-    pprint("delete " + str(len(jointReductionList)) + " bones")    
+    pprint("delete " + str(len(jointReductionList)) + " joints")    
     for joint in jointReductionList:
         __Delete(namespace + joint)
 
 """
 Main
 """
-JointReduction("Ada:")
+JointReduction("ada:")
 #Namespaceが無い場合
 #JointReduction("")
