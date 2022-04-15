@@ -10,7 +10,7 @@ from pprint import pprint
 
 def __GetSkeletonDefinitionDictionary() :
     """
-    HIK.xmlを読み込んで「"定義ボーン名"："設定ボーン名"」のディクショナリにして返す関数
+    HIK.xmlを読み込んで「"定義ジョイント名"："設定ジョイント名"」のディクショナリにして返す関数
     """
     xmlFilePath = os.path.join(os.path.expanduser("~"), "Appdata", "Roaming", "Autodesk", "HIKCharacterizationTool6", "template", "HIK.xml")
     parsedXmlFile = etree.parse(xmlFilePath)
@@ -30,7 +30,7 @@ def __ConvertTPose(skeletonDefinitionDictionary, characterName, namespace):
     for slotName, jointName in skeletonDefinitionDictionary.items():
         jointObj = __FindJoint(namespace + jointName)
         if jointObj :
-            #Tスタンスにするためにローカル回転値をゼロクリア
+            #Tポーズにするためにローカル回転値をゼロクリア
             jointObj.SetVector( FBVector3d( 0, 0, 0 ), FBModelTransformationType.kModelRotation, False ) 
 
 def Characterize(characterName, namespace):
