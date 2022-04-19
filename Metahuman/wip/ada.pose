@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root CharacterName="ada">
+<root CharacterName="brian">
     <description>
         <Rotation_order>Euler XYZ</Rotation_order>
     </description>
@@ -61,38 +61,38 @@
         <joint>
             <name>upperarm_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>-1.6217619584054678e-22</rot_y>
-            <rot_z>-4.549820121539482e-21</rot_z>
+            <rot_y>2.274910060769741e-21</rot_y>
+            <rot_z>-1.061624681562653e-20</rot_z>
         </joint>
         <joint>
             <name>lowerarm_l</name>
-            <rot_x>6.665807350536568e-10</rot_x>
+            <rot_x>6.665806240313543e-10</rot_x>
             <rot_y>3.789153713018578e-10</rot_y>
-            <rot_z>7.951416972022522e-16</rot_z>
+            <rot_z>7.951462500043437e-16</rot_z>
         </joint>
         <joint>
             <name>hand_l</name>
             <rot_x>-90.0</rot_x>
-            <rot_y>-5.155944389426599e-23</rot_y>
-            <rot_z>-1.516606673521762e-21</rot_z>
+            <rot_y>-0.0</rot_y>
+            <rot_z>-3.033213347043524e-21</rot_z>
         </joint>
         <joint>
             <name>upperarm_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>-2.145687273378241e-22</rot_y>
-            <rot_z>-1.516606673521762e-21</rot_z>
+            <rot_y>-7.58303336760881e-22</rot_y>
+            <rot_z>1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>lowerarm_r</name>
-            <rot_x>-6.66593280573835e-10</rot_x>
+            <rot_x>-6.665933915961375e-10</rot_x>
             <rot_y>-3.788581393049384e-10</rot_y>
-            <rot_z>-7.583033670531398e-21</rot_z>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>hand_r</name>
             <rot_x>-90.0</rot_x>
-            <rot_y>-1.9651830240537002e-22</rot_y>
-            <rot_z>-1.516606673521762e-21</rot_z>
+            <rot_y>-0.0</rot_y>
+            <rot_z>0.0</rot_z>
         </joint>
         <joint>
             <name>head</name>
@@ -102,13 +102,19 @@
         </joint>
         <joint>
             <name>ball_l</name>
-            <rot_x>-2.0077250747888888e-14</rot_x>
-            <rot_y>-3.1805547185895103e-15</rot_y>
+            <rot_x>-2.643836145561733e-14</rot_x>
+            <rot_y>-1.5902773592947552e-15</rot_y>
+            <rot_z>-90.0</rot_z>
+        </joint>
+        <joint>
+            <name>ball_r</name>
+            <rot_x>-6.75867875053293e-15</rot_x>
+            <rot_y>3.1805547185895103e-15</rot_y>
             <rot_z>-90.0</rot_z>
         </joint>
         <joint>
             <name>clavicle_l</name>
-            <rot_x>-0.0</rot_x>
+            <rot_x>-2.862499056148146e-14</rot_x>
             <rot_y>90.0</rot_y>
             <rot_z>0.0</rot_z>
         </joint>
@@ -156,109 +162,109 @@
         </joint>
         <joint>
             <name>thumb_01_l</name>
-            <rot_x>73.56446075439453</rot_x>
-            <rot_y>39.904178619384766</rot_y>
-            <rot_z>20.50867462158203</rot_z>
+            <rot_x>90.0</rot_x>
+            <rot_y>20.0</rot_y>
+            <rot_z>30.0</rot_z>
         </joint>
         <joint>
             <name>thumb_02_l</name>
-            <rot_x>4.770832183763384e-15</rot_x>
-            <rot_y>-1.5902773592947552e-15</rot_y>
+            <rot_x>6.361109437179021e-15</rot_x>
+            <rot_y>3.1805547185895103e-15</rot_y>
             <rot_z>3.1805547185895103e-15</rot_z>
         </joint>
         <joint>
             <name>thumb_03_l</name>
-            <rot_x>4.770832183763384e-15</rot_x>
-            <rot_y>-1.5902773592947552e-15</rot_y>
+            <rot_x>6.361109437179021e-15</rot_x>
+            <rot_y>3.1805547185895103e-15</rot_y>
             <rot_z>3.1805547185895103e-15</rot_z>
         </joint>
         <joint>
             <name>index_01_l</name>
-            <rot_x>0.0</rot_x>
+            <rot_x>-4.7890556741070865e-15</rot_x>
             <rot_y>-5.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>3.489877121943592e-16</rot_z>
         </joint>
         <joint>
             <name>index_02_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>3.033213347043524e-21</rot_y>
+            <rot_z>7.58303336760881e-22</rot_z>
         </joint>
         <joint>
             <name>index_03_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
+            <rot_y>1.516606673521762e-21</rot_y>
             <rot_z>0.0</rot_z>
         </joint>
         <joint>
             <name>middle_01_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>1.516606673521762e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>middle_02_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>1.516606673521762e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>middle_03_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>1.516606673521762e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>ring_01_l</name>
             <rot_x>0.0</rot_x>
             <rot_y>10.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-4.0916024455303504e-16</rot_z>
         </joint>
         <joint>
             <name>ring_02_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>3.033213347043524e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>ring_03_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>3.033213347043524e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>pinky_01_l</name>
             <rot_x>0.0</rot_x>
             <rot_y>20.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>4.671796985691293e-16</rot_z>
         </joint>
         <joint>
             <name>pinky_02_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>1.516606673521762e-21</rot_y>
+            <rot_z>-3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>pinky_03_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
+            <rot_y>1.516606673521762e-21</rot_y>
             <rot_z>0.0</rot_z>
         </joint>
         <joint>
             <name>thumb_01_r</name>
-            <rot_x>73.56446075439453</rot_x>
-            <rot_y>39.904178619384766</rot_y>
-            <rot_z>20.50867462158203</rot_z>
+            <rot_x>90.0</rot_x>
+            <rot_y>20.0</rot_y>
+            <rot_z>30.0</rot_z>
         </joint>
         <joint>
             <name>thumb_02_r</name>
-            <rot_x>-1.5902773592947552e-15</rot_x>
-            <rot_y>1.5902773592947552e-15</rot_y>
-            <rot_z>3.1805547185895103e-15</rot_z>
+            <rot_x>-3.1805547185895103e-15</rot_x>
+            <rot_y>-1.5902773592947552e-15</rot_y>
+            <rot_z>6.361109437179021e-15</rot_z>
         </joint>
         <joint>
             <name>thumb_03_r</name>
-            <rot_x>-1.5902773592947552e-15</rot_x>
+            <rot_x>-3.1805547185895103e-15</rot_x>
             <rot_y>1.5902773592947552e-15</rot_y>
             <rot_z>3.1805547185895103e-15</rot_z>
         </joint>
@@ -266,215 +272,95 @@
             <name>index_01_r</name>
             <rot_x>0.0</rot_x>
             <rot_y>-5.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>4.279911369292578e-16</rot_z>
         </joint>
         <joint>
             <name>index_02_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-3.033213347043524e-21</rot_y>
+            <rot_z>-7.58303336760881e-22</rot_z>
         </joint>
         <joint>
             <name>index_03_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-3.033213347043524e-21</rot_y>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>middle_01_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>middle_02_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-1.8957584176328495e-21</rot_z>
         </joint>
         <joint>
             <name>middle_03_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-7.58303336760881e-22</rot_z>
         </joint>
         <joint>
             <name>ring_01_r</name>
-            <rot_x>0.0</rot_x>
+            <rot_x>-3.229619949092163e-15</rot_x>
             <rot_y>10.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-7.152357853318337e-16</rot_z>
         </joint>
         <joint>
             <name>ring_02_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-7.58303336760881e-22</rot_z>
         </joint>
         <joint>
             <name>ring_03_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-7.58303336760881e-22</rot_z>
         </joint>
         <joint>
             <name>pinky_01_r</name>
             <rot_x>0.0</rot_x>
             <rot_y>20.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-6.633322003624911e-16</rot_z>
         </joint>
         <joint>
             <name>pinky_02_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>pinky_03_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
-        </joint>
-        <joint>
-            <name>indextoe_01_l</name>
-            <rot_x>-1.4193929433822632</rot_x>
-            <rot_y>5.004360675811768</rot_y>
-            <rot_z>-10.151589393615723</rot_z>
-        </joint>
-        <joint>
-            <name>indextoe_02_l</name>
-            <rot_x>7.951386796473776e-16</rot_x>
-            <rot_y>3.49861029632758e-14</rot_y>
-            <rot_z>-12.0</rot_z>
-        </joint>
-        <joint>
-            <name>middletoe_01_l</name>
-            <rot_x>-9.476705551147461</rot_x>
-            <rot_y>4.2611165046691895</rot_y>
-            <rot_z>-6.139674186706543</rot_z>
-        </joint>
-        <joint>
-            <name>middletoe_02_l</name>
-            <rot_x>-5.3274289683489726e-14</rot_x>
-            <rot_y>1.74930514816379e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>ringtoe_01_l</name>
-            <rot_x>-12.710511207580566</rot_x>
-            <rot_y>3.2277138233184814</rot_y>
-            <rot_z>-13.947147369384766</rot_z>
-        </joint>
-        <joint>
-            <name>ringtoe_02_l</name>
-            <rot_x>-3.1805548456444524e-14</rot_x>
-            <rot_y>1.5902774228222262e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>littletoe_01_l</name>
-            <rot_x>-5.171830654144287</rot_x>
-            <rot_y>4.722855091094971</rot_y>
-            <rot_z>-10.767568588256836</rot_z>
-        </joint>
-        <joint>
-            <name>littletoe_02_l</name>
-            <rot_x>1.510763390744855e-14</rot_x>
-            <rot_y>2.5444437748716082e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>bigtoe_01_l</name>
-            <rot_x>-0.12598690390586853</rot_x>
-            <rot_y>0.21110618114471436</rot_y>
-            <rot_z>-6.7290191650390625</rot_z>
-        </joint>
-        <joint>
-            <name>bigtoe_02_l</name>
-            <rot_x>-1.0734372307588495e-14</rot_x>
-            <rot_y>-0.0</rot_y>
-            <rot_z>0.0</rot_z>
-        </joint>
-        <joint>
-            <name>indextoe_01_r</name>
-            <rot_x>-1.4193929433822632</rot_x>
-            <rot_y>5.004360675811768</rot_y>
-            <rot_z>-10.151589393615723</rot_z>
-        </joint>
-        <joint>
-            <name>indextoe_02_r</name>
-            <rot_x>2.0673605988469172e-14</rot_x>
-            <rot_y>3.816665747010707e-14</rot_y>
-            <rot_z>-12.0</rot_z>
-        </joint>
-        <joint>
-            <name>middletoe_01_r</name>
-            <rot_x>-9.476705551147461</rot_x>
-            <rot_y>4.2611165046691895</rot_y>
-            <rot_z>-6.139674186706543</rot_z>
-        </joint>
-        <joint>
-            <name>middletoe_02_r</name>
-            <rot_x>-4.532290341641154e-14</rot_x>
-            <rot_y>-2.226388324188481e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>ringtoe_01_r</name>
-            <rot_x>-12.661324501037598</rot_x>
-            <rot_y>3.1750800609588623</rot_y>
-            <rot_z>-13.652253150939941</rot_z>
-        </joint>
-        <joint>
-            <name>ringtoe_02_r</name>
-            <rot_x>1.669791285493008e-14</rot_x>
-            <rot_y>-4.6118043737185255e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>littletoe_01_r</name>
-            <rot_x>-5.171830654144287</rot_x>
-            <rot_y>4.722855091094971</rot_y>
-            <rot_z>-10.767568588256836</rot_z>
-        </joint>
-        <joint>
-            <name>littletoe_02_r</name>
-            <rot_x>1.7075473124350538e-06</rot_x>
-            <rot_y>-1.2722218874358041e-14</rot_y>
-            <rot_z>-10.0</rot_z>
-        </joint>
-        <joint>
-            <name>bigtoe_01_r</name>
-            <rot_x>-0.12598690390586853</rot_x>
-            <rot_y>0.21110618114471436</rot_y>
-            <rot_z>-6.7290191650390625</rot_z>
-        </joint>
-        <joint>
-            <name>bigtoe_02_r</name>
-            <rot_x>1.6300342694543224e-14</rot_x>
-            <rot_y>3.1805547185895103e-15</rot_y>
-            <rot_z>1.5902773592947552e-15</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>index_metacarpal_l</name>
-            <rot_x>0.0</rot_x>
+            <rot_x>3.19270400861351e-14</rot_x>
             <rot_y>5.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-3.9908799048877694e-16</rot_z>
         </joint>
         <joint>
             <name>middle_metacarpal_l</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>1.516606673521762e-21</rot_y>
+            <rot_z>3.791516683804405e-22</rot_z>
         </joint>
         <joint>
             <name>ring_metacarpal_l</name>
             <rot_x>0.0</rot_x>
             <rot_y>-10.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>1.2111074015002223e-15</rot_z>
         </joint>
         <joint>
             <name>pinky_metacarpal_l</name>
-            <rot_x>0.0</rot_x>
+            <rot_x>2.8769741715903643e-14</rot_x>
             <rot_y>-20.0</rot_y>
             <rot_z>0.0</rot_z>
         </joint>
@@ -482,25 +368,25 @@
             <name>index_metacarpal_r</name>
             <rot_x>0.0</rot_x>
             <rot_y>5.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-5.986319592633858e-16</rot_z>
         </joint>
         <joint>
             <name>middle_metacarpal_r</name>
             <rot_x>0.0</rot_x>
-            <rot_y>0.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_y>-1.516606673521762e-21</rot_y>
+            <rot_z>-1.516606673521762e-21</rot_z>
         </joint>
         <joint>
             <name>ring_metacarpal_r</name>
-            <rot_x>0.0</rot_x>
+            <rot_x>4.844429606000889e-15</rot_x>
             <rot_y>-10.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>-4.0370249363652036e-16</rot_z>
         </joint>
         <joint>
             <name>pinky_metacarpal_r</name>
             <rot_x>0.0</rot_x>
             <rot_y>-20.0</rot_y>
-            <rot_z>0.0</rot_z>
+            <rot_z>4.2308446035427087e-16</rot_z>
         </joint>
         <joint>
             <name>thigh_twist_01_l</name>
@@ -528,7 +414,7 @@
         </joint>
         <joint>
             <name>upperarm_twist_01_l</name>
-            <rot_x>7.752788411252709e-10</rot_x>
+            <rot_x>7.752669617389074e-10</rot_x>
             <rot_y>-2.1533310413360596</rot_y>
             <rot_z>-0.3266088366508484</rot_z>
         </joint>
@@ -540,7 +426,7 @@
         </joint>
         <joint>
             <name>upperarm_twist_01_r</name>
-            <rot_x>-9.777053611159658e-10</rot_x>
+            <rot_x>-9.777091358742496e-10</rot_x>
             <rot_y>-2.1533310413360596</rot_y>
             <rot_z>-0.326608806848526</rot_z>
         </joint>
@@ -576,7 +462,7 @@
         </joint>
         <joint>
             <name>upperarm_twist_02_l</name>
-            <rot_x>7.566920978696601e-10</rot_x>
+            <rot_x>7.566937076930458e-10</rot_x>
             <rot_y>-1.247540959425919e-10</rot_y>
             <rot_z>-5.386419088537764e-10</rot_z>
         </joint>
@@ -588,7 +474,7 @@
         </joint>
         <joint>
             <name>upperarm_twist_02_r</name>
-            <rot_x>-7.566667292735474e-10</rot_x>
+            <rot_x>-7.566523518853785e-10</rot_x>
             <rot_y>1.2476043809162007e-10</rot_y>
             <rot_z>5.386368573390143e-10</rot_z>
         </joint>
